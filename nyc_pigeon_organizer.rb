@@ -8,11 +8,14 @@ def nyc_pigeon_organizer(data)
         if !hash.has_key?(name)
           hash[name] = {}
           # hash[name][data_type] << type
-          binding.pry
         # else 
         #   hash[name] = {data_type => [type]}
         end 
-        # if hash[name].
+        if !hash[name][data_type]
+          hash[name][data_type] = []
+          binding.pry
+        end 
+        
       end 
     end 
   end 
