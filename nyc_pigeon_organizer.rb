@@ -12,6 +12,7 @@ def nyc_pigeon_organizer(data)
         # else 
         #   hash[name] = {data_type => [type]}
         end 
+        # if hash[name].
       end 
     end 
   end 
