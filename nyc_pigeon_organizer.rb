@@ -19,7 +19,7 @@ def nyc_pigeon_organizer(data)
       end 
     end 
   end 
-  binding.pry
+  # binding.pry
   # data = { 
   #       :color => {
   #         :purple => ["Theo", "Peter Jr.", "Lucky"],
