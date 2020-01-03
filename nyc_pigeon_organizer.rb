@@ -13,13 +13,13 @@ def nyc_pigeon_organizer(data)
         end 
         if !hash[name][data_type]
           hash[name][data_type] = []
-          binding.pry
+          
         end 
-        
+        hash[name][data_type] << type
       end 
     end 
   end 
-  
+  binding.pry
   # data = { 
   #       :color => {
   #         :purple => ["Theo", "Peter Jr.", "Lucky"],
