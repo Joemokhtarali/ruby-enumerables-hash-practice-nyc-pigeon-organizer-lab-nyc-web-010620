@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
       array.each do |name|
         if !hash.has_key?(name)
           hash[name] = {}
-          # hash[name][data_type] << type
+          # hash[name][data_type] << type.to_s
         # else 
         #   hash[name] = {data_type => [type]}
         end 
@@ -15,7 +15,7 @@ def nyc_pigeon_organizer(data)
           hash[name][data_type] = []
           
         end 
-        hash[name][data_type] << type
+        hash[name][data_type] << type.to_s
       end 
     end 
   end 
